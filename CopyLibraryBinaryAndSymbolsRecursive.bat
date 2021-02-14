@@ -7,5 +7,3 @@ xcopy /Y /F %%G %2
 For /R %1 %%G IN (*.pdb) do (
 xcopy /Y /F %%G %2
 )
-
-Echo "Error: %errorlevel%"
